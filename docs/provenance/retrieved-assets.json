@@ -1,0 +1,247 @@
+{
+  "retrieved_at": "2026-11-08",
+  "public_site_in_source": "https://connect-wealth-flow.lovable.app",
+  "files": [
+    {
+      "dest": "public/__l5e/assets-v1/397313b1-975c-4e78-b453-5934dad59fac/leandros-holleman.jpg",
+      "source_manifest_path": "src/assets/founders/leandros-holleman.jpg.asset.json",
+      "bytes": 71788,
+      "expected_bytes": 71788,
+      "size_matches_manifest": true,
+      "sha256": "9518cea18847637fcfd20918471eada1e72e69cdbb215796be2db111003515d5",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/397313b1-975c-4e78-b453-5934dad59fac/leandros-holleman.jpg",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/de84f74a-ee82-4f42-8e97-08e1429b9ecd/rafael-cardoso.jpg",
+      "source_manifest_path": "src/assets/founders/rafael-cardoso.jpg.asset.json",
+      "bytes": 71395,
+      "expected_bytes": 71395,
+      "size_matches_manifest": true,
+      "sha256": "e4eb34bcffa9fc21ecedec9330e9c6612619cc93ca56d51c1a94763c0be2fb3a",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/de84f74a-ee82-4f42-8e97-08e1429b9ecd/rafael-cardoso.jpg",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/9d17f1cf-92b6-4ed1-b529-e5833a8b5f64/genwealth-logo-transparent.png",
+      "source_manifest_path": "src/assets/genwealth-logo-transparent.png.asset.json",
+      "bytes": 207656,
+      "expected_bytes": 207656,
+      "size_matches_manifest": true,
+      "sha256": "225f921feebeb8228636d3390ddd47632c1dcbcab789f26cc26a7013330f10a0",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/9d17f1cf-92b6-4ed1-b529-e5833a8b5f64/genwealth-logo-transparent.png",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/4bdf396b-fe77-4281-8a9d-7470e6ff56df/genwealth-logo.png",
+      "source_manifest_path": "src/assets/genwealth-logo.png.asset.json",
+      "bytes": 57166,
+      "expected_bytes": 57166,
+      "size_matches_manifest": true,
+      "sha256": "cbef58f5f1136ff0116402469fd0da055b1fa9cf15a6b42e60834525191cc716",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/4bdf396b-fe77-4281-8a9d-7470e6ff56df/genwealth-logo.png",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/cd51f169-bcf6-4045-af7b-41fbca51e9e0/aviz.png",
+      "source_manifest_path": "src/assets/partners/aviz.png.asset.json",
+      "bytes": 221601,
+      "expected_bytes": 221601,
+      "size_matches_manifest": true,
+      "sha256": "546e6e91ac237bd459cc9ef9158f38697625f4079dc62c2498e053615c89de6e",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/cd51f169-bcf6-4045-af7b-41fbca51e9e0/aviz.png",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/1c81dd5f-a146-44d1-b305-4fe1fbde8e39/catalyst.svg",
+      "source_manifest_path": "src/assets/partners/catalyst.svg.asset.json",
+      "bytes": 10985,
+      "expected_bytes": 10985,
+      "size_matches_manifest": true,
+      "sha256": "c8eeae34cb1c0ae4962997c50f02b6b7c04a8bc53f428ab691a920d6c8fdc7c1",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/1c81dd5f-a146-44d1-b305-4fe1fbde8e39/catalyst.svg",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/93ad1bfe-6a96-4a87-bc81-debd6dbc854f/cvlabs.svg",
+      "source_manifest_path": "src/assets/partners/cvlabs.svg.asset.json",
+      "bytes": 4951,
+      "expected_bytes": 4951,
+      "size_matches_manifest": true,
+      "sha256": "7cacc91f73ce4225473c11d3315de1ed582ac4f246393719c8e971ee1b12776c",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/93ad1bfe-6a96-4a87-bc81-debd6dbc854f/cvlabs.svg",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/21c2b049-d5fa-4082-aece-5f02d8a035d1/fieldfisher.png",
+      "source_manifest_path": "src/assets/partners/fieldfisher.png.asset.json",
+      "bytes": 20393,
+      "expected_bytes": 20393,
+      "size_matches_manifest": true,
+      "sha256": "5df0514787c588d65733a32c3881e82687ac403846bdddf15274b0a5745b00b7",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/21c2b049-d5fa-4082-aece-5f02d8a035d1/fieldfisher.png",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/6bbb208b-8ec5-4f08-8a11-da95fd4ce75e/jlegal.svg",
+      "source_manifest_path": "src/assets/partners/jlegal.svg.asset.json",
+      "bytes": 3396,
+      "expected_bytes": 3396,
+      "size_matches_manifest": true,
+      "sha256": "f818e9d5c260fd18b766e00a7389a3fc3dda8ed68a30f3b7e271d90a13f9265a",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/6bbb208b-8ec5-4f08-8a11-da95fd4ce75e/jlegal.svg",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/5cd7ada0-83fe-425f-8400-1a619e76613a/lamares.svg",
+      "source_manifest_path": "src/assets/partners/lamares.svg.asset.json",
+      "bytes": 8382,
+      "expected_bytes": 8382,
+      "size_matches_manifest": true,
+      "sha256": "4a60ff76b014c3eec66c958f9b036fcbec12aca57cbd80eef903044753bbaf85",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/5cd7ada0-83fe-425f-8400-1a619e76613a/lamares.svg",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/75b24b8f-cc8b-4b57-a827-4d4fd9d86413/legalsquare.png",
+      "source_manifest_path": "src/assets/partners/legalsquare.png.asset.json",
+      "bytes": 8056,
+      "expected_bytes": 8056,
+      "size_matches_manifest": true,
+      "sha256": "4288fca2cb1c4749c54d8bdbef40ada83c0b7ac75a7f8b85bbaa27bc89199b20",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/75b24b8f-cc8b-4b57-a827-4d4fd9d86413/legalsquare.png",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/2dc0462d-d5d4-40c8-b02b-cdec55aeab01/lfadv.png",
+      "source_manifest_path": "src/assets/partners/lfadv.png.asset.json",
+      "bytes": 24145,
+      "expected_bytes": 24145,
+      "size_matches_manifest": true,
+      "sha256": "3022ccb815e21d9dd77f30af45d72769a22873ec88ce956f844607d6a87a10ff",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/2dc0462d-d5d4-40c8-b02b-cdec55aeab01/lfadv.png",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/ea448b3a-bd0d-4d12-8707-25f908fc8630/maerki.png",
+      "source_manifest_path": "src/assets/partners/maerki.png.asset.json",
+      "bytes": 47733,
+      "expected_bytes": 47733,
+      "size_matches_manifest": true,
+      "sha256": "3284f103240e18de264432df619ef62ba7a740c8f23d0b6bc858e1d2424e08fe",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/ea448b3a-bd0d-4d12-8707-25f908fc8630/maerki.png",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/c303cef9-79d4-4b24-ab51-16a0135602b3/reis.svg",
+      "source_manifest_path": "src/assets/partners/reis.svg.asset.json",
+      "bytes": 13192,
+      "expected_bytes": 13192,
+      "size_matches_manifest": true,
+      "sha256": "e96136e6da06a2bdf5ce57d3357cbc874b9f016f46ebfc94ba43a05e77c59b6a",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/c303cef9-79d4-4b24-ab51-16a0135602b3/reis.svg",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/57e6686f-b6fa-4a9e-b480-a834703085bc/rff.svg",
+      "source_manifest_path": "src/assets/partners/rff.svg.asset.json",
+      "bytes": 2023,
+      "expected_bytes": 2023,
+      "size_matches_manifest": true,
+      "sha256": "a063644de4fd0329d332d27a75e33a837186216412dae289d2845d8d3aadfae3",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/57e6686f-b6fa-4a9e-b480-a834703085bc/rff.svg",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/4a0def35-60ab-47da-9f21-32996605093f/rpba.png",
+      "source_manifest_path": "src/assets/partners/rpba.png.asset.json",
+      "bytes": 11168,
+      "expected_bytes": 11168,
+      "size_matches_manifest": true,
+      "sha256": "3e624c9ff70fbcee1f9c33287832ed58eefc8ff9b8718bec03695cce7a2129a9",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/4a0def35-60ab-47da-9f21-32996605093f/rpba.png",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/8d284d3b-3f9e-48c5-bc4a-81a83e798861/solidus.png",
+      "source_manifest_path": "src/assets/partners/solidus.png.asset.json",
+      "bytes": 13851,
+      "expected_bytes": 13851,
+      "size_matches_manifest": true,
+      "sha256": "3a62f3ac4256a7c2476189a9fb8083e0673707da1067fc018c81322427096656",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/8d284d3b-3f9e-48c5-bc4a-81a83e798861/solidus.png",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/8cecf6aa-cc98-4ece-9bad-6a9774192f18/techstars.svg",
+      "source_manifest_path": "src/assets/partners/techstars.svg.asset.json",
+      "bytes": 2808,
+      "expected_bytes": 2808,
+      "size_matches_manifest": true,
+      "sha256": "01109c1e7d0679ca589b32a654c9729db75f1564fafbf663f0cefb64c88b7ebd",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/8cecf6aa-cc98-4ece-9bad-6a9774192f18/techstars.svg",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/__l5e/assets-v1/58b938bf-65d0-405f-a35e-5579cf9bf6dd/xrpl.svg",
+      "source_manifest_path": "src/assets/partners/xrpl.svg.asset.json",
+      "bytes": 3708,
+      "expected_bytes": 3708,
+      "size_matches_manifest": true,
+      "sha256": "58512d4b9ccf211b509ac871a47f741426a0d9560772d212a4f2d3e266aaefea",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/__l5e/assets-v1/58b938bf-65d0-405f-a35e-5579cf9bf6dd/xrpl.svg",
+      "preview_host_bytes_identical": true,
+      "note": "Root-relative URL already stored in the asset manifest. File placed under public/ so that URL resolves locally. Bytes also matched the preview host for this asset id."
+    },
+    {
+      "dest": "public/favicon.png",
+      "bytes": 4862,
+      "sha256": "d7d0da4eae0c3f8431d93b5290d48437e4b7a2bb84dd3cc2ae7d39fb76742cd0",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/favicon.png",
+      "size_matches_manifest": null,
+      "note": "Listed binary missing from the text export, so no snapshot hash exists. Retrieved from the same path on the public site named in src/lib/posts.ts and public/robots.txt. PNG 64x64. Byte identity with the unread Lovable file is not proven."
+    },
+    {
+      "dest": "src/assets/inheritance-family.jpg",
+      "bytes": 285797,
+      "sha256": "f10e8e64d9dd05920d9d656d8884fdbea6b8c70047cfeb65b4fdd84e1b6b1701",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/assets/inheritance-family-CIzkuuBx.jpg",
+      "size_matches_manifest": null,
+      "note": "Imported by src/routes/index.tsx and src/routes/about.tsx. Public homepage and about page serve this built file with the same alt text and 1920x1024 dimensions as the source. JPEG SOF dimensions 1920x1024. No snapshot hash was available."
+    },
+    {
+      "dest": "src/assets/inheritance-planning.jpg",
+      "bytes": 166812,
+      "sha256": "1fea8f5e957bf8994ab4af384bf474857ae96484d3578cc1d440bf6149740c99",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/assets/inheritance-planning-CHFEnMFv.jpg",
+      "size_matches_manifest": null,
+      "note": "Imported by src/routes/index.tsx and src/routes/professionals.tsx. Public homepage serves this built file with the same alt text and 1536x1024 dimensions as the source. JPEG SOF dimensions 1536x1024. No snapshot hash was available."
+    },
+    {
+      "dest": "src/assets/family-legacy.jpg",
+      "bytes": 189183,
+      "sha256": "283f4a156ed6be1d17d6c5ec5644b86b4ece677f0cfe554b013e4583e01f6a1f",
+      "retrieved_from": "https://connect-wealth-flow.lovable.app/assets/family-legacy-DrzKy2ug.jpg",
+      "size_matches_manifest": null,
+      "note": "Imported by src/routes/index.tsx and src/routes/individuals.tsx. Public homepage serves this built file with the same alt text and 1536x1024 dimensions as the source. JPEG SOF dimensions 1536x1024. No snapshot hash was available."
+    }
+  ]
+}

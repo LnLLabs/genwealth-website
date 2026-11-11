@@ -1,0 +1,892 @@
+{
+  "project_name": "Inheritance Link / GenWealth",
+  "project_id": "b0b2767d-b2e2-4238-ab0a-24626153ab74",
+  "snapshot_commit_sha": "5f7888b7f22c7dfd25def5c6eb98942ef20b57ac",
+  "exported_at": "2026-11-08T10:26:05.341841+00:00",
+  "time_zone": "Europe/Lisbon (UTC+0)",
+  "editor_url": "https://lovable.dev/projects/b0b2767d-b2e2-4238-ab0a-24626153ab74",
+  "preview_url": "https://id-preview--b0b2767d-b2e2-4238-ab0a-24626153ab74.lovable.app",
+  "linked_repository_url": null,
+  "repository_url_note": "get_project metadata did not provide a linked repository URL; no URL inferred.",
+  "method": "Read-only Lovable MCP get_project, list_files (2 pages: 100+42; has_more=false), read_file with the exact pinned commit ref for every read. No clone.",
+  "completeness": "PARTIAL: all 137 non-environment text paths exported; four listed binary files missing and 19 asset manifests have unexported underlying blobs.",
+  "listed_file_count": 142,
+  "exported_text_file_count": 137,
+  "excluded_environment_paths": [
+    ".env"
+  ],
+  "environment_note": ".env was not read; no credential values exported. Environment must be supplied securely later.",
+  "missing_binary_paths": [
+    "public/favicon.png",
+    "src/assets/family-legacy.jpg",
+    "src/assets/inheritance-family.jpg",
+    "src/assets/inheritance-planning.jpg"
+  ],
+  "binary_note": "The text-only read_file returned replacement-decoded PNG bytes for favicon.png. Corrupt response was excluded. Other binary paths were not read because the same tool cannot preserve binary bytes. No preview build was reconstructed.",
+  "external_assets": [
+    {
+      "manifest_path": "src/assets/founders/leandros-holleman.jpg.asset.json",
+      "asset_path": "src/assets/founders/leandros-holleman.jpg",
+      "asset_id": "397313b1-975c-4e78-b453-5934dad59fac",
+      "referenced_url": "/__l5e/assets-v1/397313b1-975c-4e78-b453-5934dad59fac/leandros-holleman.jpg",
+      "expected_bytes": 71788,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/founders/rafael-cardoso.jpg.asset.json",
+      "asset_path": "src/assets/founders/rafael-cardoso.jpg",
+      "asset_id": "de84f74a-ee82-4f42-8e97-08e1429b9ecd",
+      "referenced_url": "/__l5e/assets-v1/de84f74a-ee82-4f42-8e97-08e1429b9ecd/rafael-cardoso.jpg",
+      "expected_bytes": 71395,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/genwealth-logo-transparent.png.asset.json",
+      "asset_path": "src/assets/genwealth-logo-transparent.png",
+      "asset_id": "9d17f1cf-92b6-4ed1-b529-e5833a8b5f64",
+      "referenced_url": "/__l5e/assets-v1/9d17f1cf-92b6-4ed1-b529-e5833a8b5f64/genwealth-logo-transparent.png",
+      "expected_bytes": 207656,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/genwealth-logo.png.asset.json",
+      "asset_path": "src/assets/genwealth-logo.png",
+      "asset_id": "4bdf396b-fe77-4281-8a9d-7470e6ff56df",
+      "referenced_url": "/__l5e/assets-v1/4bdf396b-fe77-4281-8a9d-7470e6ff56df/genwealth-logo.png",
+      "expected_bytes": 57166,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/partners/aviz.png.asset.json",
+      "asset_path": "src/assets/partners/aviz.png",
+      "asset_id": "cd51f169-bcf6-4045-af7b-41fbca51e9e0",
+      "referenced_url": "/__l5e/assets-v1/cd51f169-bcf6-4045-af7b-41fbca51e9e0/aviz.png",
+      "expected_bytes": 221601,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/partners/catalyst.svg.asset.json",
+      "asset_path": "src/assets/partners/catalyst.svg",
+      "asset_id": "1c81dd5f-a146-44d1-b305-4fe1fbde8e39",
+      "referenced_url": "/__l5e/assets-v1/1c81dd5f-a146-44d1-b305-4fe1fbde8e39/catalyst.svg",
+      "expected_bytes": 10985,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/partners/cvlabs.svg.asset.json",
+      "asset_path": "src/assets/partners/cvlabs.svg",
+      "asset_id": "93ad1bfe-6a96-4a87-bc81-debd6dbc854f",
+      "referenced_url": "/__l5e/assets-v1/93ad1bfe-6a96-4a87-bc81-debd6dbc854f/cvlabs.svg",
+      "expected_bytes": 4951,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/partners/fieldfisher.png.asset.json",
+      "asset_path": "src/assets/partners/fieldfisher.png",
+      "asset_id": "21c2b049-d5fa-4082-aece-5f02d8a035d1",
+      "referenced_url": "/__l5e/assets-v1/21c2b049-d5fa-4082-aece-5f02d8a035d1/fieldfisher.png",
+      "expected_bytes": 20393,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/partners/jlegal.svg.asset.json",
+      "asset_path": "src/assets/partners/jlegal.svg",
+      "asset_id": "6bbb208b-8ec5-4f08-8a11-da95fd4ce75e",
+      "referenced_url": "/__l5e/assets-v1/6bbb208b-8ec5-4f08-8a11-da95fd4ce75e/jlegal.svg",
+      "expected_bytes": 3396,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/partners/lamares.svg.asset.json",
+      "asset_path": "src/assets/partners/lamares.svg",
+      "asset_id": "5cd7ada0-83fe-425f-8400-1a619e76613a",
+      "referenced_url": "/__l5e/assets-v1/5cd7ada0-83fe-425f-8400-1a619e76613a/lamares.svg",
+      "expected_bytes": 8382,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/partners/legalsquare.png.asset.json",
+      "asset_path": "src/assets/partners/legalsquare.png",
+      "asset_id": "75b24b8f-cc8b-4b57-a827-4d4fd9d86413",
+      "referenced_url": "/__l5e/assets-v1/75b24b8f-cc8b-4b57-a827-4d4fd9d86413/legalsquare.png",
+      "expected_bytes": 8056,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/partners/lfadv.png.asset.json",
+      "asset_path": "src/assets/partners/lfadv.png",
+      "asset_id": "2dc0462d-d5d4-40c8-b02b-cdec55aeab01",
+      "referenced_url": "/__l5e/assets-v1/2dc0462d-d5d4-40c8-b02b-cdec55aeab01/lfadv.png",
+      "expected_bytes": 24145,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/partners/maerki.png.asset.json",
+      "asset_path": "src/assets/partners/maerki.png",
+      "asset_id": "ea448b3a-bd0d-4d12-8707-25f908fc8630",
+      "referenced_url": "/__l5e/assets-v1/ea448b3a-bd0d-4d12-8707-25f908fc8630/maerki.png",
+      "expected_bytes": 47733,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/partners/reis.svg.asset.json",
+      "asset_path": "src/assets/partners/reis.svg",
+      "asset_id": "c303cef9-79d4-4b24-ab51-16a0135602b3",
+      "referenced_url": "/__l5e/assets-v1/c303cef9-79d4-4b24-ab51-16a0135602b3/reis.svg",
+      "expected_bytes": 13192,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/partners/rff.svg.asset.json",
+      "asset_path": "src/assets/partners/rff.svg",
+      "asset_id": "57e6686f-b6fa-4a9e-b480-a834703085bc",
+      "referenced_url": "/__l5e/assets-v1/57e6686f-b6fa-4a9e-b480-a834703085bc/rff.svg",
+      "expected_bytes": 2023,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/partners/rpba.png.asset.json",
+      "asset_path": "src/assets/partners/rpba.png",
+      "asset_id": "4a0def35-60ab-47da-9f21-32996605093f",
+      "referenced_url": "/__l5e/assets-v1/4a0def35-60ab-47da-9f21-32996605093f/rpba.png",
+      "expected_bytes": 11168,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/partners/solidus.png.asset.json",
+      "asset_path": "src/assets/partners/solidus.png",
+      "asset_id": "8d284d3b-3f9e-48c5-bc4a-81a83e798861",
+      "referenced_url": "/__l5e/assets-v1/8d284d3b-3f9e-48c5-bc4a-81a83e798861/solidus.png",
+      "expected_bytes": 13851,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/partners/techstars.svg.asset.json",
+      "asset_path": "src/assets/partners/techstars.svg",
+      "asset_id": "8cecf6aa-cc98-4ece-9bad-6a9774192f18",
+      "referenced_url": "/__l5e/assets-v1/8cecf6aa-cc98-4ece-9bad-6a9774192f18/techstars.svg",
+      "expected_bytes": 2808,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    },
+    {
+      "manifest_path": "src/assets/partners/xrpl.svg.asset.json",
+      "asset_path": "src/assets/partners/xrpl.svg",
+      "asset_id": "58b938bf-65d0-405f-a35e-5579cf9bf6dd",
+      "referenced_url": "/__l5e/assets-v1/58b938bf-65d0-405f-a35e-5579cf9bf6dd/xrpl.svg",
+      "expected_bytes": 3708,
+      "status": "Manifest exported; underlying blob not returned by text-only source tools"
+    }
+  ],
+  "dependencies_evident_from_configuration": [
+    "React 19 / TanStack Start / Vite; package.json and bun.lock included.",
+    "Supabase JS dependency and supabase/config.toml project reference: remote Supabase configuration required for equivalent backend functionality.",
+    "Drizzle PostgreSQL migration configuration references LOVABLE_DB_MIGRATION_URL. Database contents and user accounts were not exported.",
+    "Build uses @lovable.dev/vite-tanstack-config; its config comments specify Nitro/Cloudflare default build target and Lovable tooling. Portability not tested.",
+    "Asset manifests reference /__l5e/assets-v1 paths; original hosted assets are not self-contained in this export."
+  ],
+  "verification": [
+    "Safe relative paths enforced; no traversal, .env, or binary corruption included.",
+    "Conservative embedded-secret pattern scan found no flagged strings in exported text. This is not a comprehensive secret audit.",
+    "Transport wrappers removed; text contents otherwise unchanged; UTF-8 source outputs contained no replacement characters. No provider blob hashes were available to prove byte identity beyond returned text.",
+    "Inventory reconciliation: 142 paths = 137 exported text + 1 excluded .env + 4 missing binary.",
+    "No installation, scripts, builds, tests, source modifications, repository creation, deployment, or agent message performed.",
+    "Previously requested two biography updates remain unapplied."
+  ],
+  "supported_completion_options": [
+    {
+      "method": "Single-file download in Lovable code editor available on any plan; may recover missing binary assets. No browser attempt made.",
+      "documentation": "https://docs.lovable.dev/features/code-mode"
+    },
+    {
+      "method": "Official full codebase ZIP download on paid plans, or Git sync on all plans. No plan change, Git setup or repository creation attempted.",
+      "documentation": "https://docs.lovable.dev/features/code-mode"
+    }
+  ],
+  "files": [
+    {
+      "path": "package.json",
+      "bytes": 3121,
+      "sha256": "413a6cfc9fc7dabe1605f9beab5ff56afe9464a303664ddf9aadd0084daaee51"
+    },
+    {
+      "path": "src/assets/founders/rafael-cardoso.jpg.asset.json",
+      "bytes": 461,
+      "sha256": "8db4900f51db22e0dd3379bc42d99d34a056db606cc0ac1ae5b27517aa51d82a"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 334,
+      "sha256": "74366d54bcd8375f43e80ebe6c1963c27bfa139cb2f384a5a4ee113a9a462e81"
+    },
+    {
+      "path": ".lovable/north-star/north-star.md",
+      "bytes": 297,
+      "sha256": "4f93c8eeac446e4ce33d350fb1b41610d7ef2348dd5be17c48a227435966a0c3"
+    },
+    {
+      "path": ".lovable/plan/clarify-genwealth-s-message-and-update-its-logo-2026-09-24.md",
+      "bytes": 3107,
+      "sha256": "5ca44f5493e6d2c0622e8b454bd1a1f80e73ae2e00779b24e11e6a785b1e9ec9"
+    },
+    {
+      "path": ".lovable/project.json",
+      "bytes": 124,
+      "sha256": "58a1e159dfbd7c2be2793ec1a9320390add562236949c1cca1602012a05f221d"
+    },
+    {
+      "path": ".prettierignore",
+      "bytes": 92,
+      "sha256": "52c7c767ff0615eec4eb64cc71265877f7f423eb597d665b5e439f337c661a5a"
+    },
+    {
+      "path": ".prettierrc",
+      "bytes": 90,
+      "sha256": "1ed88d3b99eced8dc3b6f58f26645466dd1ceaca6c5a9b818531c941ac28e55b"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1907,
+      "sha256": "354e8ea0c4635a97a884a17504b123fc53f580f96cfb27ae914d960a1fafb7f2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 839,
+      "sha256": "ac8aacd1be52ecf9abc829111e14c8a2785ebfeeea626e4ef0a2894c8d6f328c"
+    },
+    {
+      "path": "bun.lock",
+      "bytes": 200603,
+      "sha256": "035ea4538bcc43d928a38274205696683369b6636820e258eb32f393edae2fbc"
+    },
+    {
+      "path": "bunfig.toml",
+      "bytes": 380,
+      "sha256": "366fc9712878c09fe0fee77df1f41a1614b45c561f673f53d9bc39a9fc7b6569"
+    },
+    {
+      "path": "components.json",
+      "bytes": 443,
+      "sha256": "37c484818824d2521eee3367e7aa2c2abbd19635d8103d19734b6e24603d0292"
+    },
+    {
+      "path": "drizzle.config.ts",
+      "bytes": 245,
+      "sha256": "091bb5bda4b36dcbc2ef729cdc65afd67163149c221e8a5b0c6f38ebc542da2c"
+    },
+    {
+      "path": "drizzle/migrations/0000_migration.sql",
+      "bytes": 3776,
+      "sha256": "4d2e04fdb253acba300205d800839ef43c9df1df064e45e02ad76f177f32887f"
+    },
+    {
+      "path": "drizzle/migrations/0001_create_contact_submissions.sql",
+      "bytes": 761,
+      "sha256": "84072a567ada8b80afe9bebbf387543bfea2664dd38f62fc56fd936ed51885b8"
+    },
+    {
+      "path": "drizzle/migrations/meta/0000_snapshot.json",
+      "bytes": 336,
+      "sha256": "645f5f32bd7980a81d55257f59687fa3eb673e3eb3480963db21a1ef4db3a4c5"
+    },
+    {
+      "path": "drizzle/migrations/meta/0001_snapshot.json",
+      "bytes": 336,
+      "sha256": "b1c0e7c7e2fd6cb2be2aa970f64edc76d0b910783cea218149138f370002166e"
+    },
+    {
+      "path": "drizzle/migrations/meta/_journal.json",
+      "bytes": 358,
+      "sha256": "82aa5f8e4c4fe4ffc7abb5800b8116359cc0a454ce7aa50f08840ce1769742f2"
+    },
+    {
+      "path": "drizzle/schema.ts",
+      "bytes": 60,
+      "sha256": "834fff8005e00606dfdff9ff71393309dc72160c108fdad72418986573cf9448"
+    },
+    {
+      "path": "eslint.config.js",
+      "bytes": 1250,
+      "sha256": "3266245a1ff610a0b37dbb8b8c77b93a125e0d8758b9838cfd04b2e0a1397d56"
+    },
+    {
+      "path": "public/robots.txt",
+      "bytes": 222,
+      "sha256": "3c6e5638ad62fd4cc04a130cdc711f785f8247058936f10540ded0082dd579f0"
+    },
+    {
+      "path": "roadmap.md",
+      "bytes": 3809,
+      "sha256": "1521efc2a098dce983ae2f8eb532445b97ea8c4e1064ec2345b19428df00f361"
+    },
+    {
+      "path": "src/assets/founders/leandros-holleman.jpg.asset.json",
+      "bytes": 470,
+      "sha256": "1ad8921a9952f95a0d95502553f255922bd526b960e4a5a95911a0ef78ba0f3e"
+    },
+    {
+      "path": "src/assets/genwealth-logo-transparent.png.asset.json",
+      "bytes": 497,
+      "sha256": "8b07c53b5531678140698efe723e8250e8206f656afd9ae6103d3207bd716002"
+    },
+    {
+      "path": "src/assets/genwealth-logo.png.asset.json",
+      "bytes": 460,
+      "sha256": "734db9534640252aa918ede230146dccc7dcb8e81784e2118ee51e9d8eddf3af"
+    },
+    {
+      "path": "src/assets/partners/aviz.png.asset.json",
+      "bytes": 431,
+      "sha256": "e2477a75ae0394f7cf1df231ecedae9bc01e65e52c899f6e752e57e0a3194142"
+    },
+    {
+      "path": "src/assets/partners/catalyst.svg.asset.json",
+      "bytes": 446,
+      "sha256": "9c50f6e1a4b7eb4ee4b268033234e44a1ae4e08f33a443851e7cdb25f48ca967"
+    },
+    {
+      "path": "src/assets/partners/cvlabs.svg.asset.json",
+      "bytes": 439,
+      "sha256": "3613f5b1ec93bdf8d7e113ea14eb7bc6641d509a0ccbf7e2087e4d1ee9f7402a"
+    },
+    {
+      "path": "src/assets/partners/fieldfisher.png.asset.json",
+      "bytes": 451,
+      "sha256": "4b83a0709caae2170c920588e9b945d428c2b4a5b750eb58ad722d143c80f88f"
+    },
+    {
+      "path": "src/assets/partners/jlegal.svg.asset.json",
+      "bytes": 439,
+      "sha256": "783db803a2167f1775ae4002113459ae0e0f8407a12c5befd4f6fadeaeb79a52"
+    },
+    {
+      "path": "src/assets/partners/lamares.svg.asset.json",
+      "bytes": 442,
+      "sha256": "eba81065ac7b60b687588f5203c52feab8e002e49e82ea2d738a59e89fe9817f"
+    },
+    {
+      "path": "src/assets/partners/legalsquare.png.asset.json",
+      "bytes": 450,
+      "sha256": "4c21596ba0681cbb9b7429006b154a596e03cce4f1dfd0c5e243a169f72eefb0"
+    },
+    {
+      "path": "src/assets/partners/lfadv.png.asset.json",
+      "bytes": 433,
+      "sha256": "34d122f6840826861c2233bc47c3c3acc58ec39c2b3c5ad432f3c13e8d082cdf"
+    },
+    {
+      "path": "src/assets/partners/maerki.png.asset.json",
+      "bytes": 436,
+      "sha256": "30e9bcdc36cb22d3085077a5c9900afdbbf3d133c7698180cc17a377c5b9928c"
+    },
+    {
+      "path": "src/assets/partners/reis.svg.asset.json",
+      "bytes": 434,
+      "sha256": "d73467340208bec9a8cdc08170bd66b6116d3bf8e82af151cd831d4bcc9eb28e"
+    },
+    {
+      "path": "src/assets/partners/rff.svg.asset.json",
+      "bytes": 430,
+      "sha256": "9f4e4c2af7866e1ac48183201898669b63e22c556e4d6b5ea5bcb815c44a3189"
+    },
+    {
+      "path": "src/assets/partners/rpba.png.asset.json",
+      "bytes": 430,
+      "sha256": "83c8d8730c3432ccdb9df3dc2efc7136895db4442bb7feb9fa27e5f765540486"
+    },
+    {
+      "path": "src/assets/partners/solidus.png.asset.json",
+      "bytes": 439,
+      "sha256": "c9019df66693488382695703fdf69fbaa193b4c974168f9a546316bb126e866a"
+    },
+    {
+      "path": "src/assets/partners/techstars.svg.asset.json",
+      "bytes": 448,
+      "sha256": "45307d2f53f2e0811e7bb0b620fa39aacb39b80bcd118d0b8ebea1e86ba126d6"
+    },
+    {
+      "path": "src/assets/partners/xrpl.svg.asset.json",
+      "bytes": 433,
+      "sha256": "f3036806af66f9c588d12c31a387fe5c54b5a69cefe5ac9a4b2d5d7bb10a20cd"
+    },
+    {
+      "path": "src/components/site/Footer.tsx",
+      "bytes": 2190,
+      "sha256": "f3f5b9579c21b5d63c610f3d058e14c2f9fcc7665abee27fdfc0ddc302c79953"
+    },
+    {
+      "path": "src/components/site/Founders.tsx",
+      "bytes": 5082,
+      "sha256": "c210fc9788073725ea92197b06c2d324ff0798871da44aa83f754e7581e70931"
+    },
+    {
+      "path": "src/components/site/Header.tsx",
+      "bytes": 3384,
+      "sha256": "b16c786112efa4c3f2572d6afb35797ead666d7860902f65d95c28ff98c79138"
+    },
+    {
+      "path": "src/components/site/TechnologyExplorer.tsx",
+      "bytes": 4345,
+      "sha256": "790cf25654ce5f311ce611277369b5363554746912614ee322f824e675086f61"
+    },
+    {
+      "path": "src/components/site/Traction.tsx",
+      "bytes": 3772,
+      "sha256": "bcb22a9071cb997dbcec9dcfb284b50947e5c718f50060f814e99d2fa0bbbc50"
+    },
+    {
+      "path": "src/components/site/WealthTransferLayer.tsx",
+      "bytes": 4093,
+      "sha256": "c44916a5b03bff5b27a6fdc9612937c29e5140dc2ec88fbd60c1a9062d577495"
+    },
+    {
+      "path": "src/components/site/primitives.tsx",
+      "bytes": 6535,
+      "sha256": "a4ef2a72ac9d78a7c9f1e891a3de791f2d010d0410bf6df2d70030f2529f7cd4"
+    },
+    {
+      "path": "src/components/ui/accordion.tsx",
+      "bytes": 2015,
+      "sha256": "0903efcd7b746eef0a10c954a541b0dfa7aa1172f3c380a1a88f4e19a317fda3"
+    },
+    {
+      "path": "src/components/ui/alert-dialog.tsx",
+      "bytes": 4183,
+      "sha256": "ee4d7f3341a1e5592787b7dac8e924bd226189492819f6704d8a7faf8fe64d20"
+    },
+    {
+      "path": "src/components/ui/alert.tsx",
+      "bytes": 1589,
+      "sha256": "e7f4c2e6f78c59270905b4152b7d3ef4d5c6b9e3b2d370daa7b301aa7cbd27b3"
+    },
+    {
+      "path": "src/components/ui/aspect-ratio.tsx",
+      "bytes": 143,
+      "sha256": "d72c73d629e37995a0a71647d851d68d6fdcd7ec120797f36ab83a8ee89f2cab"
+    },
+    {
+      "path": "src/components/ui/avatar.tsx",
+      "bytes": 1413,
+      "sha256": "0326c9041c5a0b1ba31ff29822c51950b6aeac485cd0985e7df714741a54e7f4"
+    },
+    {
+      "path": "src/components/ui/badge.tsx",
+      "bytes": 1123,
+      "sha256": "6519775252fe729f21c60b92c7c9feefd1fe7d0a8c2cf16d6f1c2fa7e153fe75"
+    },
+    {
+      "path": "src/components/ui/breadcrumb.tsx",
+      "bytes": 2749,
+      "sha256": "d5224e87344b3ac0f8b002e5dda6a71ff8fee296db8a5fbe6b034d06bd5c2ae1"
+    },
+    {
+      "path": "src/components/ui/button.tsx",
+      "bytes": 1894,
+      "sha256": "e39813b666ba434660ec088356a0349246b6803a4e99961295d0c82bab1ab862"
+    },
+    {
+      "path": "src/components/ui/calendar.tsx",
+      "bytes": 7226,
+      "sha256": "e883f2245873fdf360764f77fc8f391426bef5776c6397537012c46970ebd6ee"
+    },
+    {
+      "path": "src/components/ui/card.tsx",
+      "bytes": 1817,
+      "sha256": "f13878a0078a5ef9f3e92af29259fc1e93ea56ea80cb992e0c4dea4e35396459"
+    },
+    {
+      "path": "src/components/ui/carousel.tsx",
+      "bytes": 6200,
+      "sha256": "568e00e8edbfab8af67ee902ca9ef5ceb6d5ed6f3045e7f9b3c15b4f7ef9e974"
+    },
+    {
+      "path": "src/components/ui/chart.tsx",
+      "bytes": 10570,
+      "sha256": "81b1f692f9334ba3030213ff37eeaf2dd762b644e5d96e51ada7072109f07430"
+    },
+    {
+      "path": "src/components/ui/checkbox.tsx",
+      "bytes": 1043,
+      "sha256": "c44d02535d5c9c92807576804407dd63d01e7189dbde526e925b53885e645fd4"
+    },
+    {
+      "path": "src/components/ui/collapsible.tsx",
+      "bytes": 335,
+      "sha256": "5f0a45d8f6ca72d37ed10bf0a85306158b67d7cbc386319186ce013ead9bc0a6"
+    },
+    {
+      "path": "src/components/ui/command.tsx",
+      "bytes": 4876,
+      "sha256": "ba8c0f8b23044ce9a5066e66d7ab7be3a3c79bfc4a0ab7dfae6ffafe439145a3"
+    },
+    {
+      "path": "src/components/ui/context-menu.tsx",
+      "bytes": 7360,
+      "sha256": "b299f50a0a7840b136db5670f2b2e7eec6fc62b3c06bc2ad0015800959cc381b"
+    },
+    {
+      "path": "src/components/ui/dialog.tsx",
+      "bytes": 3648,
+      "sha256": "e3a6de153fb15597ea95be9c4549211a297c060267787915599e3d680d476bd9"
+    },
+    {
+      "path": "src/components/ui/drawer.tsx",
+      "bytes": 2973,
+      "sha256": "478c487f66245641d5fa0f0d1c53a07d68bd60c4b3c497ec4c41ce08b482e14b"
+    },
+    {
+      "path": "src/components/ui/dropdown-menu.tsx",
+      "bytes": 7565,
+      "sha256": "a6b87c89f5a806225b7f3a81f13a6577289c67e5787c2a56b5a22bd1edea02ce"
+    },
+    {
+      "path": "src/components/ui/form.tsx",
+      "bytes": 4201,
+      "sha256": "1ed53d4ab564a64708938643de590f2bef3718b0b2a309c1019c57e9c1fde23f"
+    },
+    {
+      "path": "src/components/ui/hover-card.tsx",
+      "bytes": 1246,
+      "sha256": "69dc172ece56ac77bf3a044a1cd60ed601b0041945d16b5da4c6cc4f42116988"
+    },
+    {
+      "path": "src/components/ui/input-otp.tsx",
+      "bytes": 2232,
+      "sha256": "45b7c4fd518616f76dd611b9da13bc60bece1352e050878bf943e1cc6a4ed678"
+    },
+    {
+      "path": "src/components/ui/input.tsx",
+      "bytes": 776,
+      "sha256": "92debb7d6d2d96d9e607a42d5ce8f37b2d63384ae5dd9ffbbf5f047b680ffb85"
+    },
+    {
+      "path": "src/components/ui/label.tsx",
+      "bytes": 716,
+      "sha256": "9f72e2ecf16206593aa9e3c4fbc14cd8e81aa8488d57d92d4a950b30935a9fa9"
+    },
+    {
+      "path": "src/components/ui/menubar.tsx",
+      "bytes": 8515,
+      "sha256": "5bd157c3a446ea1e451867e63724b2e87ad6bba6251c8b5f1b267d1df7bd4e0e"
+    },
+    {
+      "path": "src/components/ui/navigation-menu.tsx",
+      "bytes": 5152,
+      "sha256": "755aecc77b7911ab61159c9fbb9b25254009eb4c32c95b1430b6b5b7d37ed8f0"
+    },
+    {
+      "path": "src/components/ui/pagination.tsx",
+      "bytes": 2739,
+      "sha256": "cbe8559c578ee2d34c7daef5ee75dc3afeb795851e294b111dec375ba44a9a2d"
+    },
+    {
+      "path": "src/components/ui/popover.tsx",
+      "bytes": 1352,
+      "sha256": "861c18577ea5988c6f5ca00d1c677200319fd427cf8b424e59a5cca6ff24f830"
+    },
+    {
+      "path": "src/components/ui/progress.tsx",
+      "bytes": 781,
+      "sha256": "418f612946a520d1380b7a0d058185bb6a6d09846846dd6d6904a0016152dd4a"
+    },
+    {
+      "path": "src/components/ui/radio-group.tsx",
+      "bytes": 1405,
+      "sha256": "8c55aa0496b00a27fc4f609ca8b43a7e82c6802f6bf613998438b7632899fa96"
+    },
+    {
+      "path": "src/components/ui/resizable.tsx",
+      "bytes": 1552,
+      "sha256": "f0399fec7bc334f06433b41b6ebf34255942ce4916b99173898893fa7fcc8281"
+    },
+    {
+      "path": "src/components/ui/scroll-area.tsx",
+      "bytes": 1635,
+      "sha256": "b607f562455152a079d70a22538c95072b0267e0d59a1a1cf16a905a2e373a6f"
+    },
+    {
+      "path": "src/components/ui/select.tsx",
+      "bytes": 5749,
+      "sha256": "6d4deee18cf7ced0354eb719300833a83caf46400de6ee9c3d1942fa4c579ad4"
+    },
+    {
+      "path": "src/components/ui/separator.tsx",
+      "bytes": 723,
+      "sha256": "bf5838b692e5f74fde7083280b99492dd402bce6966e912e79f5e23f14bc98eb"
+    },
+    {
+      "path": "src/components/ui/sheet.tsx",
+      "bytes": 4248,
+      "sha256": "a82f9341962e766ee925a2fe883b0a9ab5d5dd8475c402ac8e491ee37dc95fde"
+    },
+    {
+      "path": "src/components/ui/sidebar.tsx",
+      "bytes": 23975,
+      "sha256": "9f44f4523271f965adec608ae1c3b8a2f350f2f45ba1401a2c7ee33bc5eda238"
+    },
+    {
+      "path": "src/components/ui/skeleton.tsx",
+      "bytes": 239,
+      "sha256": "f4c42257d73925b0b856a3500e2cbdd918fe6744fcd6be87ef28bb88e7eb7366"
+    },
+    {
+      "path": "src/components/ui/slider.tsx",
+      "bytes": 1025,
+      "sha256": "d307cf3ff05b54be4a04389ef4379f9e8b4dc49720197937991ce843a8d4b5ec"
+    },
+    {
+      "path": "src/components/ui/sonner.tsx",
+      "bytes": 734,
+      "sha256": "3ad40f66c339e799b1a57c00e10b4627294c7d580d99d8a48ae0d8d4c13cf931"
+    },
+    {
+      "path": "src/components/ui/switch.tsx",
+      "bytes": 1156,
+      "sha256": "c3c298df4ffb56695e4a8f0ff3e37eee08437dec542a677153ec16bed0820107"
+    },
+    {
+      "path": "src/components/ui/table.tsx",
+      "bytes": 2820,
+      "sha256": "1e945e564c2cc5ca3ef33019ba7da7a8b94cbc73feb3cbc2b7b33c36ea648d92"
+    },
+    {
+      "path": "src/components/ui/tabs.tsx",
+      "bytes": 1934,
+      "sha256": "e9b454d2f987c83b36cc8870bba47d9355db4e8f5c733b310dbc1119a7d27654"
+    },
+    {
+      "path": "src/components/ui/textarea.tsx",
+      "bytes": 677,
+      "sha256": "35617a2cf053e52c9e56983bde82d556861d38e462f9e578876c8e99a0432687"
+    },
+    {
+      "path": "src/components/ui/toggle-group.tsx",
+      "bytes": 1752,
+      "sha256": "d59cd3937c967a3e221fdfcfe4ea5cd57eb97cbe37e1ac98126664c9c7db49c1"
+    },
+    {
+      "path": "src/components/ui/toggle.tsx",
+      "bytes": 1534,
+      "sha256": "62e6e21993f1ab633b9f830cbbf0c181f3d161bae3a7792dbf2d842d42a2f09c"
+    },
+    {
+      "path": "src/components/ui/tooltip.tsx",
+      "bytes": 1278,
+      "sha256": "9682690fc3755d0f4b8684f2d7b1f77945876d41a45b723d0761b26804ad5010"
+    },
+    {
+      "path": "src/hooks/use-mobile.tsx",
+      "bytes": 576,
+      "sha256": "21eff740f9e5c965c7f0782925a7e8f67ddfcdf0f58b6613550f99c3e1c454e9"
+    },
+    {
+      "path": "src/integrations/supabase/auth-attacher.ts",
+      "bytes": 611,
+      "sha256": "24d0dbdf8dc0fd49b391a948bd04e1db43b97a1d851acc391dd3d1b13b9797fd"
+    },
+    {
+      "path": "src/integrations/supabase/auth-middleware.ts",
+      "bytes": 3236,
+      "sha256": "ae40b141ce933b52252e00bfacd3e69fa7a8e6ef88a2c92809780bf7d1bb76cc"
+    },
+    {
+      "path": "src/integrations/supabase/client.server.ts",
+      "bytes": 2753,
+      "sha256": "56ec7f9ac40ccdf96d8aba4f7fe33a586590ac63420b81e6cd5dc1e4777ee28e"
+    },
+    {
+      "path": "src/integrations/supabase/client.ts",
+      "bytes": 3569,
+      "sha256": "b300e9491d5b8500ee77137fbaeef8e5b46b5f5e8a9463fc2dc01adc104e1807"
+    },
+    {
+      "path": "src/integrations/supabase/cron-auth.ts",
+      "bytes": 1109,
+      "sha256": "18430aa4c7faff5b44c572a8a4dfa6482daa52acbea09f384b872f087e58e738"
+    },
+    {
+      "path": "src/integrations/supabase/previewAuthStorage.ts",
+      "bytes": 6623,
+      "sha256": "5b00130146b77ecd8ed49f118c640d3e75aa7c5e76695f3b9e3f7f8833719f0a"
+    },
+    {
+      "path": "src/integrations/supabase/types.ts",
+      "bytes": 7577,
+      "sha256": "c7d3db4e797b955cab0460671d8a8dbaf8ed0f88133806d826345cda14d1e4e7"
+    },
+    {
+      "path": "src/lib/contact.functions.ts",
+      "bytes": 2440,
+      "sha256": "e1325a825faeea355052c19a9a0860fd8924c59882101f8fb67f070ccd0ca2a9"
+    },
+    {
+      "path": "src/lib/error-capture.ts",
+      "bytes": 2898,
+      "sha256": "d6fa7756cbc4c399f4e891b174c2dce8160e2354972c2ae68413dfd1db843088"
+    },
+    {
+      "path": "src/lib/error-page.ts",
+      "bytes": 1371,
+      "sha256": "635915886f5d44a18b6add2a53959dbe2e8ba1bb3f7e597fc714650e74157bb6"
+    },
+    {
+      "path": "src/lib/lovable-error-reporting.ts",
+      "bytes": 1821,
+      "sha256": "fa4d3d0759cb8eff71be71e620d739224a4fb746babc85c6fa75408687a74857"
+    },
+    {
+      "path": "src/lib/posts.functions.ts",
+      "bytes": 1706,
+      "sha256": "1f980d51a1ac80dca0c11c58fb98b7d284384d1240467f709ce38641f340785c"
+    },
+    {
+      "path": "src/lib/posts.ts",
+      "bytes": 1974,
+      "sha256": "03f44a3caa74a3d609d55014129decc841a0d1da6bc4b7e2b88f033193f4c6bb"
+    },
+    {
+      "path": "src/lib/utils.ts",
+      "bytes": 169,
+      "sha256": "d1f1e0d62cb8d8d1e04c26e14de842d8a151f75812d81b046c65b5d1fe8e4b27"
+    },
+    {
+      "path": "src/routeTree.gen.ts",
+      "bytes": 14152,
+      "sha256": "04644b1be21a4351051cb07546a5ade393385b97ef311e8ddf4e8b4f27bbb946"
+    },
+    {
+      "path": "src/router.tsx",
+      "bytes": 394,
+      "sha256": "72b68964d3f55ba4f7dcf2a04aad9d97d7c61fabad13aec1d298f1e39ee59fcc"
+    },
+    {
+      "path": "src/routes/README.md",
+      "bytes": 835,
+      "sha256": "5c8187dbe79dac7a3c494f2600585508f5d15e75f04f21ea364d0de14de10575"
+    },
+    {
+      "path": "src/routes/__root.tsx",
+      "bytes": 5004,
+      "sha256": "6d1d9dfef4a09228121b1ff4a09852c41c813313448a6c9681bb890e6cba2267"
+    },
+    {
+      "path": "src/routes/_authenticated/editor.$id.tsx",
+      "bytes": 8139,
+      "sha256": "05a79b0d57a0fdc67e1e0a05e32efd73536fe1f5f4dacbc339f80a3f29d5dad3"
+    },
+    {
+      "path": "src/routes/_authenticated/editor.index.tsx",
+      "bytes": 3349,
+      "sha256": "e1258fa9ae56d13d04416f3e99994842f9fcde4fd4b903d8aee2434b039d37cf"
+    },
+    {
+      "path": "src/routes/_authenticated/route.tsx",
+      "bytes": 381,
+      "sha256": "a0a214ec4cce9895949fa52fb295d5446b6854d76be0cda7690e2ff59877691e"
+    },
+    {
+      "path": "src/routes/_authenticated/submissions.tsx",
+      "bytes": 3242,
+      "sha256": "122ef19a52ed19c8a3badfafd6ba74f4edf0ace8b71437d2d021cdca41321275"
+    },
+    {
+      "path": "src/routes/about.tsx",
+      "bytes": 4232,
+      "sha256": "cf7155e83216f17b5b7583a34b1ab5ec6d21a88c456d78de7c64e9104b4853cc"
+    },
+    {
+      "path": "src/routes/auth.tsx",
+      "bytes": 2763,
+      "sha256": "30e7f9d58c8aa20d611c7c13e55c9a5ffe6d8346a4f6fdc19442ffa6a3acf1b6"
+    },
+    {
+      "path": "src/routes/contact.tsx",
+      "bytes": 11202,
+      "sha256": "45f4650e6f5610acb4e565ff0bd2373db5e197e12c91cbeb1bcfa65ee645d115"
+    },
+    {
+      "path": "src/routes/how-it-works.tsx",
+      "bytes": 3480,
+      "sha256": "c42214f77a6a773c9af2336d022d8d39d6baa4e68c4db9f4bc9be8e9d76eb032"
+    },
+    {
+      "path": "src/routes/index.tsx",
+      "bytes": 9985,
+      "sha256": "9ca5d488654051a6fa2dd0d94f6ed62d13bb021b9d1f3f1e6db7bb2f5acda395"
+    },
+    {
+      "path": "src/routes/individuals.tsx",
+      "bytes": 3654,
+      "sha256": "d61f1a6c739580e80aa1f092ba618f16e9256575ae10555b80948db0939e6ed8"
+    },
+    {
+      "path": "src/routes/insights.$slug.tsx",
+      "bytes": 5777,
+      "sha256": "318f6fe97ac77d9476a1bee298b8b6fa2f867339d3e03ad698de4ae9cc65beb8"
+    },
+    {
+      "path": "src/routes/insights.index.tsx",
+      "bytes": 5436,
+      "sha256": "0d26a316f697a9ed198f411acce0f08f47641217fbcb492f6887eedb65f36b12"
+    },
+    {
+      "path": "src/routes/institutions.tsx",
+      "bytes": 5449,
+      "sha256": "2a2f70ac0c07163399edcdaac1d865c7d6174d660290770e7659f936853176b3"
+    },
+    {
+      "path": "src/routes/llms[.]txt.tsx",
+      "bytes": 1787,
+      "sha256": "2c70665ac8c4792c31d9f12bf6e3bdfe502c59c8bfdd435a31c8bcc053d57330"
+    },
+    {
+      "path": "src/routes/professionals.tsx",
+      "bytes": 10704,
+      "sha256": "ffa8feecfc65f41bde43c4c9b5861b426846f87b4b01879d4933a601d47b833b"
+    },
+    {
+      "path": "src/routes/rss[.]xml.tsx",
+      "bytes": 1111,
+      "sha256": "eb9823733983cb6af33c1d9d5d4ff3f9628bbc4a4dba9ba18a8f632aa52e24bd"
+    },
+    {
+      "path": "src/routes/sitemap[.]xml.tsx",
+      "bytes": 986,
+      "sha256": "4a8e7dc7f9f31a445505a05b5bdb7b749bacc7651261122c9f41a4e57cff8121"
+    },
+    {
+      "path": "src/routes/technology.tsx",
+      "bytes": 5881,
+      "sha256": "98e4d6b7bd8545843a6998b075ef94154fe1899148a8a906de649f9e4e0ac6b2"
+    },
+    {
+      "path": "src/server.ts",
+      "bytes": 2048,
+      "sha256": "f0ee683067afee145f81a63a3af76b3d3767e2a1f61f0e82582f8da184ad3ef6"
+    },
+    {
+      "path": "src/start.ts",
+      "bytes": 1064,
+      "sha256": "f3f07f1f6afe27708dd41bb992e3c7c470892d44a75c32eebe57abb6327ff28f"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 25317,
+      "sha256": "18a6a8b52f4533cdc74be0f25a2797b8e44de177774cc96ce317b4b520f2e7a7"
+    },
+    {
+      "path": "supabase/config.toml",
+      "bytes": 35,
+      "sha256": "92585446f91238dfc1cd36ef0f8597fa8a7e70de221a588b7a59482cfa6beb5c"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 820,
+      "sha256": "0ff5b0536ac765fe8beabcfe2202c3069c4cc43136e20e4c2f04c55f6f4ebc84"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 820,
+      "sha256": "694f17daf64d3bf3481ee838ce69c26c593c60c0ed45a19209754fe5a742bcf0"
+    }
+  ]
+}

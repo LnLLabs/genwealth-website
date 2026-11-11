@@ -1,0 +1,39 @@
+# Website presentation
+- [x] Add inheritance-focused photography to the homepage and relevant audience pages.
+- [x] Replace repetitive boxed layouts and glow effects with editorial typography and open sections, keeping brand colors.
+- [x] Verify imagery, links and page presentation in the running website.
+- [x] Refine the website using the supplied design references, preserving brand colors and inheritance imagery.
+- [x] Verify all pages, audience navigation and the interactive transfer view at desktop and mobile sizes.
+- [x] Make the technology capability sections interactive with selectable topics and connected architecture visuals.
+- [x] Verify topic selection, keyboard access and small-screen presentation.
+- [x] Give each homepage audience a specific reason to book a call, carried through to the contact page.
+- [x] Verify each audience call reason reaches the contact page with the right details pre-filled.
+- [x] Add a traction section (2 versions launched, 80 users, 26 inheritance firms) plus the partners and clients list.
+- [x] Verify the traction section renders correctly on the homepage and About page.
+- [x] Add the supplied Maerki Baumann, Fieldfisher and Cartório Aviz logos to the partners strip.
+- [x] Verify the new logos load and read clearly on the homepage, About page and mobile.
+- [x] Add a "How professionals work with GenWealth" section (prepare the case; confirm death and validate) to the professionals page.
+- [x] Verify the new professionals section renders on desktop and mobile.
+- [x] Rebuild the professionals workflow as a stage table with a connected flow rail and three concrete stages.
+- [x] Verify the stage table at desktop, tablet and mobile widths.
+- [x] Add an FAQ section to the professionals page (willing, responsibilities, demo/test case).
+- [x] Verify the FAQ opens one answer at a time, its call link reaches the contact page, and it reads well on mobile.
+- [x] Retitle the professionals FAQ to "Short FAQ" and remove its label lines.
+- [x] Add a "What GenWealth provides" section (workflow design, integration, professional coordination, pilot) to the institutions page.
+- [x] Verify the new institutions section reads correctly on desktop and mobile.
+- [x] Add an Insights section (blog posts + video updates) with a private editor, sitemap, RSS and AI-readable summary.
+- [x] Verify Insights pages, editor sign-in and search files work.
+- [x] Add a documentation button to the technology page linking to https://docs.genwealth.app/.
+- [x] Verify the documentation button renders in the hero and at the end of the page, opens in a new tab, and reads well on mobile.
+- [x] Add the Calendly 30-minute booking link to every call-booking button, shown alongside the contact-page option.
+- [x] Verify booking buttons open the Calendly slot in a new tab at desktop, tablet and phone sizes, and the contact page still works.
+- [x] Keep the homepage hero to "Talk to GenWealth" and "How it works" only, since the contact page already offers both booking and a message.
+- [x] Verify the homepage hero shows two buttons, the audience call reasons still open Calendly, and the contact page keeps both options.
+- [x] Turn the contact form into a real submission form (name, email, audience, message) stored in the Cloud `contact_submissions` table.
+- [x] Add a contact-submissions inbox for admins next to the Insights editor, newest first.
+- [x] Verify a test submission is stored and visible to the admin inbox, then remove the test row.
+- [ ] Send owner notification emails to hello@genwealth.app on each contact submission — blocked on email domain setup.
+- [x] Swap the two founder portraits and add each founder's LinkedIn profile link on the About page.
+- [x] Verify both portraits load and both LinkedIn links open the right profile in a new tab.
+
+
